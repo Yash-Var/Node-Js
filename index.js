@@ -8,3 +8,8 @@ fs.appendFileSync("readme.txt"," today i study node js core modules");
 //to rename the file name 
 
 fs.renameSync("readme.txt","yash.txt");
+
+//to read
+const yash=fs.readFileSync("yash.txt");
+
+console.log(yash.toLocaleString());
