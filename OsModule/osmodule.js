@@ -1,17 +1,23 @@
-const os =require('os');
+// const os =require('os');
 
-console.log(os.arch());
+// console.log(os.platform());
 
-const freememory=os.freemem();
+// console.log(os.arch());
 
-console.log(`${freememory/1024/1024/1024}`);
+// console.log(os.cpus());
 
-const freememo=os.totalmem();
+// const freememory=os.freemem();
 
-console.log(`${freememo/1024/1024/1024}`);
+// console.log(`${freememory/1024/1024/1024}`);
+
+// const freememo=os.totalmem();
+
+// console.log(os.totalmem()/1024/1024/1024);
+
+// console.log(`${freememo/1024/1024/1024}`);
  
-console.log(os.hostname());
+// console.log(os.hostname());
 
-console.log(os.platform());
+// console.log(os.platform());
 
-console.log(os.type());
+// console.log(os.type());
