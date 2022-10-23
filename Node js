@@ -4,5 +4,7 @@ Node.js is a JavaScript running on the server.
  
 REPEL feature of Node is very useful in experimenting with Node js codes ad to debug Javascript codes.
 
+Written in C++.
+
 READ, EVAL, PRINT, LOOP.
  
