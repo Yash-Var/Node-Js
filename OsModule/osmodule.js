@@ -1,5 +1,7 @@
 // const os =require('os');
 
+const { url } = require("inspector");
+
 // console.log(os.platform());
 
 // console.log(os.arch());
@@ -21,3 +23,5 @@
 // console.log(os.platform());
 
 // console.log(os.type());
+
+

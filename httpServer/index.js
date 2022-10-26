@@ -1,6 +1,9 @@
 const http = require('http');
+
 const fs = require('fs');
+
 const { json } = require('stream/consumers');
+
 const server = http.createServer((req, res) => {
     const data = fs.readFileSync(`${__dirname}/userApi/userApi.json`, "utf-8");
     const orgdata = JSON.parse(data);
