@@ -18,7 +18,7 @@ server.on('request',(req,res)=>{
     // restream.on("end",()=>{
     //     res.end();
     // });
-    restream.pipe(res);
+    restream.pipe(res); 
 
 });
 
